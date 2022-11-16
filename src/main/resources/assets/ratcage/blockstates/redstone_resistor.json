@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "resistance=1,facing=east,powered=false": {
+      "model": "ratcage:block/redstone_resistor_1tick",
+      "y": 270
+    },
+    "resistance=1,facing=east,powered=true": {
+      "model": "ratcage:block/redstone_resistor_1tick_on",
+      "y": 270
+    },
+    "resistance=1,facing=north,powered=false": {
+      "model": "ratcage:block/redstone_resistor_1tick",
+      "y": 180
+    },
+    "resistance=1,facing=north,powered=true": {
+      "model": "ratcage:block/redstone_resistor_1tick_on",
+      "y": 180
+    },
+    "resistance=1,facing=south,powered=false": {
+      "model": "ratcage:block/redstone_resistor_1tick"
+    },
+    "resistance=1,facing=south,powered=true": {
+      "model": "ratcage:block/redstone_resistor_1tick_on"
+    },
+    "resistance=1,facing=west,powered=false": {
+      "model": "ratcage:block/redstone_resistor_1tick",
+      "y": 90
+    },
+    "resistance=1,facing=west,powered=true": {
+      "model": "ratcage:block/redstone_resistor_1tick_on",
+      "y": 90
+    },
+    "resistance=2,facing=east,powered=false": {
+      "model": "ratcage:block/redstone_resistor_2tick",
+      "y": 270
+    },
+    "resistance=2,facing=east,powered=true": {
+      "model": "ratcage:block/redstone_resistor_2tick_on",
+      "y": 270
+    },
+    "resistance=2,facing=north,powered=false": {
+      "model": "ratcage:block/redstone_resistor_2tick",
+      "y": 180
+    },
+    "resistance=2,facing=north,powered=true": {
+      "model": "ratcage:block/redstone_resistor_2tick_on",
+      "y": 180
+    },
+    "resistance=2,facing=south,powered=false": {
+      "model": "ratcage:block/redstone_resistor_2tick"
+    },
+    "resistance=2,facing=south,powered=true": {
+      "model": "ratcage:block/redstone_resistor_2tick_on"
+    },
+    "resistance=2,facing=west,powered=false": {
+      "model": "ratcage:block/redstone_resistor_2tick",
+      "y": 90
+    },
+    "resistance=2,facing=west,powered=true": {
+      "model": "ratcage:block/redstone_resistor_2tick_on",
+      "y": 90
+    },
+    "resistance=3,facing=east,powered=false": {
+      "model": "ratcage:block/redstone_resistor_3tick",
+      "y": 270
+    },
+    "resistance=3,facing=east,powered=true": {
+      "model": "ratcage:block/redstone_resistor_3tick_on",
+      "y": 270
+    },
+    "resistance=3,facing=north,powered=false": {
+      "model": "ratcage:block/redstone_resistor_3tick",
+      "y": 180
+    },
+    "resistance=3,facing=north,powered=true": {
+      "model": "ratcage:block/redstone_resistor_3tick_on",
+      "y": 180
+    },
+    "resistance=3,facing=south,powered=false": {
+      "model": "ratcage:block/redstone_resistor_3tick"
+    },
+    "resistance=3,facing=south,powered=true": {
+      "model": "ratcage:block/redstone_resistor_3tick_on"
+    },
+    "resistance=3,facing=west,powered=false": {
+      "model": "ratcage:block/redstone_resistor_3tick",
+      "y": 90
+    },
+    "resistance=3,facing=west,powered=true": {
+      "model": "ratcage:block/redstone_resistor_3tick_on",
+      "y": 90
+    },
+    "resistance=4,facing=east,powered=false": {
+      "model": "ratcage:block/redstone_resistor_4tick",
+      "y": 270
+    },
+    "resistance=4,facing=east,powered=true": {
+      "model": "ratcage:block/redstone_resistor_4tick_on",
+      "y": 270
+    },
+    "resistance=4,facing=north,powered=false": {
+      "model": "ratcage:block/redstone_resistor_4tick",
+      "y": 180
+    },
+    "resistance=4,facing=north,powered=true": {
+      "model": "ratcage:block/redstone_resistor_4tick_on",
+      "y": 180
+    },
+    "resistance=4,facing=south,powered=false": {
+      "model": "ratcage:block/redstone_resistor_4tick"
+    },
+    "resistance=4,facing=south,powered=true": {
+      "model": "ratcage:block/redstone_resistor_4tick_on"
+    },
+    "resistance=4,facing=west,powered=false": {
+      "model": "ratcage:block/redstone_resistor_4tick",
+      "y": 90
+    },
+    "resistance=4,facing=west,powered=true": {
+      "model": "ratcage:block/redstone_resistor_4tick_on",
+      "y": 90
+    }
+  }
+}
