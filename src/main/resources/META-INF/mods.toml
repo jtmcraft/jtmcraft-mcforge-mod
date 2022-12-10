@@ -44,7 +44,9 @@ authors = "jtmcraft" #optional
 description = '''
 Adds some redstone blocks:
 - Simple latch
-- (N)AND, (N)OR logic gates
+- (N)AND, (N)OR, (N)XOR logic gates
+- Inverter
+- Resistor
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.ratcage]] #optional
