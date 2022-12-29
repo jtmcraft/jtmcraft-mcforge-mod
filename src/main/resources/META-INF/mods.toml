@@ -47,6 +47,8 @@ Adds some redstone blocks:
 - (N)AND, (N)OR, (N)XOR logic gates
 - Inverter
 - Resistor
+
+Adds an Ode to Joy music disc
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.ratcage]] #optional

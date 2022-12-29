@@ -7,5 +7,9 @@
   "block.ratcage.redstone_xor_gate": "XOR Gate",
   "block.ratcage.redstone_nxor_gate": "NXOR Gate",
   "block.ratcage.redstone_inverter": "Inverter",
-  "block.ratcage.redstone_resistor": "Resistor"
+  "block.ratcage.redstone_resistor": "Resistor",
+
+  "item.ratcage.music_disc_ode_to_joy": "Ode to Joy",
+  "item.ratcage.music_disc_ode_to_joy.desc": "jtmcraft - Ode to Joy (CC0)",
+  "item.ratcage.raccoon_spawn_egg": "Raccoon Spawn Egg",
 }

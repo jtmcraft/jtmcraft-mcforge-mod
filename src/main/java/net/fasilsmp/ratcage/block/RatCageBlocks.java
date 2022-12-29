@@ -1,15 +1,7 @@
 package net.fasilsmp.ratcage.block;
 
 import net.fasilsmp.ratcage.RatCageMod;
-import net.fasilsmp.ratcage.block.redstone.AndGateBlock;
-import net.fasilsmp.ratcage.block.redstone.InverterBlock;
-import net.fasilsmp.ratcage.block.redstone.NandGateBlock;
-import net.fasilsmp.ratcage.block.redstone.NorGateBlock;
-import net.fasilsmp.ratcage.block.redstone.NxorGateBlock;
-import net.fasilsmp.ratcage.block.redstone.OrGateBlock;
-import net.fasilsmp.ratcage.block.redstone.ResistorBlock;
-import net.fasilsmp.ratcage.block.redstone.SimpleLatchEntityBlock;
-import net.fasilsmp.ratcage.block.redstone.XorGateBlock;
+import net.fasilsmp.ratcage.block.redstone.*;
 import net.fasilsmp.ratcage.item.RatCageItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
@@ -23,7 +15,7 @@ import java.util.function.Supplier;
 public class RatCageBlocks {
     public static final int DEFAULT_DELAY = 2;
 
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RatCageMod.MODID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RatCageMod.MOD_ID);
 
     public static final RegistryObject<Block> REDSTONE_SIMPLE_LATCH_BLOCK = registerRedstoneBlock(
             "redstone_simple_latch",

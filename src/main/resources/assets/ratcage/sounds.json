@@ -1,0 +1,10 @@
+{
+  "ode_to_joy": {
+    "sounds": [
+      {
+        "name": "ratcage:ode_to_joy",
+        "stream": true
+      }
+    ]
+  }
+}
