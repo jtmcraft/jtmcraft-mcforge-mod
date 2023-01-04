@@ -125,7 +125,7 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
-    // maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
 }
 
 dependencies {
@@ -150,7 +150,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     testImplementation "org.mockito:mockito-core:3.+"
 
-    // implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19.3:4.0.2')
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19:3.1.18')
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

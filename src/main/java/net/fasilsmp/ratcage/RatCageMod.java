@@ -2,6 +2,7 @@ package net.fasilsmp.ratcage;
 
 import net.fasilsmp.ratcage.block.RatCageBlocks;
 import net.fasilsmp.ratcage.block.entity.RatCageBlockEntities;
+import net.fasilsmp.ratcage.entity.RatCageEntityTypes;
 import net.fasilsmp.ratcage.item.RatCageItems;
 import net.fasilsmp.ratcage.sound.RatCageSounds;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class RatCageMod {
         RatCageItems.register(modEventBus);
         RatCageBlockEntities.register(modEventBus);
         RatCageSounds.register(modEventBus);
+        RatCageEntityTypes.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

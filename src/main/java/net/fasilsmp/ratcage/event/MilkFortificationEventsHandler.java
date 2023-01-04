@@ -1,4 +1,4 @@
-package net.fasilsmp.ratcage.event.server;
+package net.fasilsmp.ratcage.event;
 
 import net.fasilsmp.ratcage.RatCageMod;
 import net.minecraft.world.effect.MobEffectCategory;
@@ -12,7 +12,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = RatCageMod.MOD_ID)
-public class MilkFortificationEvents {
+public class MilkFortificationEventsHandler {
     private static final long OFFSET = 60000; // 30 minutes = 1800000
 
     private static final String RATCAGE_MILK_FORTIFICATION_KEY = "ratcage_milk_fortification";
